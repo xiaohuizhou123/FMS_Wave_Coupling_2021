@@ -53,7 +53,7 @@ mkdir -p build/intel/wave_ice_ocean/ww3_prnc/
 (cd build/intel/wave_ice_ocean/ww3_prnc/; rm -f path_names;\
 ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_prnc)
 (cd build/intel/wave_ice_ocean/ww3_prnc/; \
-../../../../src/mkmf/bin/mkmf -t ../../../../src/mkmf/templates/ncrc-intel.mk -p ww3_prnc path_names)
+../../../../src/mkmf/bin/mkmf -t ../../../../src/mkmf/templates/ncrc-intel-WW3.mk -p ww3_prnc path_names)
 (cd build/intel/wave_ice_ocean/ww3_prnc/; source ../../env; make NETCDF=3 REPRO=1 ww3_prnc -j)
 echo ''
 echo ''
@@ -66,7 +66,7 @@ mkdir -p build/intel/wave_ice_ocean/ww3_multi/
 (cd build/intel/wave_ice_ocean/ww3_multi/; rm -f path_names;\
 ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_multi)
 (cd build/intel/wave_ice_ocean/ww3_multi/; \
-../../../../src/mkmf/bin/mkmf -t ../../../../src/mkmf/templates/ncrc-intel.mk -p ww3_multi path_names)
+../../../../src/mkmf/bin/mkmf -t ../../../../src/mkmf/templates/ncrc-intel-WW3.mk -p ww3_multi path_names)
 (cd build/intel/wave_ice_ocean/ww3_multi/; source ../../env; make NETCDF=3 REPRO=1 ww3_multi -j)
 echo ''
 echo ''
@@ -77,7 +77,7 @@ mkdir -p build/intel/WW3lib/repro
 (cd build/intel/WW3lib/repro/; rm -f path_names; \
 ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_multi)
 (cd build/intel/WW3lib/repro/; \
-../../../../src/mkmf/bin/mkmf -t ../../../../src/mkmf/templates/ncrc-intel.mk -p libww3.a -c "-Duse_libMPI -Duse_netCDF -DSPMD " path_names)
+../../../../src/mkmf/bin/mkmf -t ../../../../src/mkmf/templates/ncrc-intel-WW3.mk -p libww3.a -c "-Duse_libMPI -Duse_netCDF -DSPMD " path_names)
 (cd build/intel/WW3lib/repro/; make NETCDF=4 REPRO=1 libww3.a -j)
 echo ''
 echo ''
@@ -101,5 +101,5 @@ mkdir -p build/intel/wave_ice_ocean/ww3_ounf/
 (cd build/intel/wave_ice_ocean/ww3_ounf/; rm -f path_names; \
 ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_ounf)
 (cd build/intel/wave_ice_ocean/ww3_ounf/; \
-../../../../src/mkmf/bin/mkmf -t ../../../../src/mkmf/templates/ncrc-intel.mk -o -p ww3_ounf path_names)
+../../../../src/mkmf/bin/mkmf -t ../../../../src/mkmf/templates/ncrc-intel-WW3.mk -p ww3_ounf path_names)
 (cd build/intel/wave_ice_ocean/ww3_ounf/; source ../../env; make NETCDF=3 REPRO=1 ww3_ounf -j)
