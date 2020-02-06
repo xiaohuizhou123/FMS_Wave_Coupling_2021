@@ -1,4 +1,4 @@
-# FMS Wave Coupling: WAVEWATCH III in FMS
+OB# FMS Wave Coupling: WAVEWATCH III in FMS
 
 ### Compiling on Gaea
 
@@ -26,13 +26,13 @@ If working on Gaea, these steps should successfully compile libraries and execut
 
 > Gaea Instructions:  
 >
-> cd examples/Baltic_OM4_025/WW3/PreProc
-> ../../../../build/intel/wave_ice_ocean/ww3_grid/ww3_grid
+> cd examples/Baltic_OM4_025/WW3/PreProc  
+> ../../../../build/intel/wave_ice_ocean/ww3_grid/ww3_grid  
 
 2.  Now we are ready to run.  To run on Gaea we can either submit a job through the batch system, or run the job interactively.  In this example we are going to run it interactively.
 
 > Gaea Instructions:  
 >
-> cd examples/Baltic_OM4_025
-> salloc --clusters=c3 --qos=normal --nodes=1 --x11
-> srun -n2 ../../build/intel/wave_ice_ocean/repro/MOM6
+> cd examples/Baltic_OM4_025  
+> salloc --clusters=c3 --qos=normal --nodes=1 --x11  
+> srun -n2 ../../build/intel/wave_ice_ocean/repro/MOM6  
