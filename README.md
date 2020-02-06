@@ -20,6 +20,19 @@
 
 If working on Gaea, these steps should successfully compile libraries and executables needed to set-up and run the WW3 coupled system with FMS.  
 
-### Running on Gaea
+### Running on Gaea - Baltic_OM4_025 example
 
-1.
+1. First we have to run some WW3 preprocessor files to generate the grid information.  We are going to first create mod_def.ww3 by running ww3_grid.
+
+> Gaea Instructions:  
+>
+> cd examples/Baltic_OM4_025/WW3/PreProc
+> ../../../../build/intel/wave_ice_ocean/ww3_grid/ww3_grid
+
+2.  Now we are ready to run.  To run on Gaea we can either submit a job through the batch system, or run the job interactively.  In this example we are going to run it interactively.
+
+> Gaea Instructions:  
+>
+> cd examples/Baltic_OM4_025
+> salloc --clusters=c3 --qos=normal --nodes=1 --x11
+> 
