@@ -1,4 +1,4 @@
-OB# FMS Wave Coupling: WAVEWATCH III in FMS
+# FMS Wave Coupling: WAVEWATCH III in FMS
 
 ### Compiling on Gaea
 
