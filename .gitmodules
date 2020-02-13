@@ -32,3 +32,4 @@
 [submodule "src/WW3"]
 	path = src/WW3
 	url = git@github.com:breichl/WW3.git
+	branch = user/bgr/wave_coupling
