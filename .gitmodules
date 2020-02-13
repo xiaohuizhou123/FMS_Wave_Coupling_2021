@@ -20,6 +20,7 @@
 [submodule "src/MOM6"]
 	path = src/MOM6
 	url = git@github.com:breichl/MOM6.git
+	branch = user/bgr/Wave_coupling_updates
 [submodule "src/SIS2"]
 	path = src/SIS2
 	url = https://github.com/NOAA-GFDL/SIS2.git
@@ -27,7 +28,7 @@
 [submodule "src/coupler"]
 	path = src/coupler
 	url = git@github.com:breichl/FMScoupler.git
+	branch = user/bgr/wave_coupling
 [submodule "src/WW3"]
 	path = src/WW3
 	url = git@github.com:breichl/WW3.git
-
