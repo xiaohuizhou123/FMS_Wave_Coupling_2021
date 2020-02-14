@@ -3,18 +3,28 @@
 
 setenv site `perl -T -e "use Net::Domain(hostdomain); print hostdomain" | sed 's/\.$//'`
 
+#Set 1 to build FMS libraries (needed for coupled model)
 setenv BuildFMS 1
-setenv BuildWW3grid 0
+#Set 1 to build ww3_grid exec (needed for creating wave model grid)
+setenv BuildWW3grid 1
+#Set 1 to build ww3_prnc exec (optional, needed to run wave model from external forcing)
 setenv BuildWW3prnc 0
+#Set 1 to build ww3_multi exec (optional, needed to run wave model in stand-alone from multi driver)
 setenv BuildWW3multi 0
+#Set 1 to build ww3_shel exec (optional, needed to run wave model in stand-alone from shel driver)
 setenv BuildWW3shel 0
+#Set 1 to build WW3 library for coupled model
 setenv BuildWW3lib 1
-setenv BuildWW3ounf 0
+#Set 1 to build ww3_ounf exec (optional, needed to process WW3 output to NetCDF)
+setenv BuildWW3ounf 1
+#Set 1 to build the actual coupled model
 setenv BuildMOM6 1
-
 
 setenv HEADDIR `pwd`
 mkdir -p build/intel
+
+# These options correctly set the compiler templates and modules for Gaea or the GFDL workstations.
+# Use these as a guide to set-up your own environment, and feel free to add so others may use!
 if ( "$site" == "gfdl.noaa.gov" ) then
     setenv TEMPLATE '/home/bgr/Custom_Files/linux-intel-OMPI.mk'
     setenv TEMPLATE_WW3 '/home/bgr/Custom_Files/linux-intel-OMPI-WW3.mk'
