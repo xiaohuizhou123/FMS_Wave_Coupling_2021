@@ -9,7 +9,7 @@ To clone this repository from github use the following:
 
 Change to the desired branch, then update and unpack the submodules:
 
-> git submoduleupdate --init --recursive
+> git submodule update --init --recursive
 
 Now you should be ready to compile.
 
