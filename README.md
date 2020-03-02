@@ -57,7 +57,7 @@ b. Next you need to create the mod_def.ww3 file for WW3's internal grid.  Naviga
 
 > Gaea Instructions:
 >
-> cd examples/Baltic_OM4_025  
+> cd examples/Idealized_Hurricane/0p5  
 > salloc --clusters=c3 --qos=normal --nodes=1 --x11  
 > srun -n2 ../../build/intel/wave_ice_ocean/repro/MOM6
 
