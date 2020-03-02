@@ -20,14 +20,14 @@ Now you should be ready to compile.
 
 > Gaea/GFDL Instructions:
 >
-> cd FMS_Wave_Coupling
+> cd FMS_Wave_Coupling  
 > ./Set_Up_WW3.csh
 
 2. The second step is to compile.  Again, a script to do this is provided for GFDL and Gaea.  This script will compile 1) FMS library, 2) ww3_grid, 3) ww3_prnc, 4) ww3_multi, 5) WW3 library (for linking within coupled model), 6) the coupled model , and 7) ww3_ounf.
 
 > Gaea Instructions:
 >
-> cd FMS_Wave_Coupling
+> cd FMS_Wave_Coupling  
 > ./Wave_Compile_gaea.csh
 
 If working on Gaea or the GFDL workstation, these steps should successfully compile libraries and executables needed to set-up and run the WW3 coupled system with FMS.
@@ -44,7 +44,7 @@ a. (Optional) If you are on a system that has access to the FMS/FRE tools, you c
 
 b. Next you need to create the mod_def.ww3 file for WW3's internal grid.  Navigate to WW3/PreProc and execute the ww3_grid (note on GFDL/Gaea you need to load the NetCDF libraries used to compile, e.g., on GFDL system: "module load netcdf/4.2" and on Gaea "module load cray-netcdf" before this will work):
 
-> cd WW3/PreProc
+> cd WW3/PreProc  
 > ../../../../../build/intel/wave_ice_ocean/ww3_grid/ww3_grid
 
 2. We now need to put the wind file in the right location.  Here we are assuming you have access to the file "Fanapi_WND_domain_grid_reverse_lon_Lat_gust_1.14.nc"  Simply copy this file into the folder FORCING within the 0p5 directory.
@@ -57,8 +57,8 @@ b. Next you need to create the mod_def.ww3 file for WW3's internal grid.  Naviga
 
 > Gaea Instructions:
 >
-> cd examples/Baltic_OM4_025
-> salloc --clusters=c3 --qos=normal --nodes=1 --x11
+> cd examples/Baltic_OM4_025  
+> salloc --clusters=c3 --qos=normal --nodes=1 --x11  
 > srun -n2 ../../build/intel/wave_ice_ocean/repro/MOM6
 
 On the GFDL workstation I am using custom installed MPI libraries.  This will have to be reproduced for your own set-up.
