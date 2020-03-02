@@ -28,7 +28,7 @@ Now you should be ready to compile.
 > Gaea Instructions:
 >
 > cd FMS_Wave_Coupling  
-> ./Wave_Compile_gaea.csh
+> ./Wave_Compile.csh
 
 If working on Gaea or the GFDL workstation, these steps should successfully compile libraries and executables needed to set-up and run the WW3 coupled system with FMS.
 
