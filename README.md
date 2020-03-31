@@ -21,6 +21,7 @@ Another option: To clone this repo with modified coupler and compile file from x
 
 Change to the desired branch, then update and unpack the submodules:
 > git checkout remotes/origin/add_cd_in_FMScoupler
+
 > git submodule update --init --recursive
 
 change the src/coupler to late updated commmit
