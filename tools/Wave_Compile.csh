@@ -12,7 +12,7 @@ setenv BuildWW3prnc 0
 #Set 1 to build ww3_multi exec (optional, needed to run wave model in stand-alone from multi driver)
 setenv BuildWW3multi 0
 #Set 1 to build ww3_shel exec (optional, needed to run wave model in stand-alone from shel driver)
-setenv BuildWW3shel 0
+setenv BuildWW3shel 1
 #Set 1 to build WW3 library for coupled model
 setenv BuildWW3lib 1
 #Set 1 to build ww3_ounf exec (optional, needed to process WW3 output to NetCDF)
@@ -49,6 +49,16 @@ else if ( "$site" == "ncrc.gov" ) then
     module load cray-netcdf
     module load cray-hdf5
 EOF
+else if ("$site" == "ib0.cheyenne.ucar.edu") then
+     module load ncarenv/1.3
+     module load ncarcompilers/0.5.0
+     module load netcdf/4.7.3
+     module load intel/18.0.5
+     module load mpt/2.19
+
+     setenv TEMPLATE '/glade/work/xiaohuiz/CODE/FMS_Wave_Coupling/tools/cheyenne-intel.mk'
+     setenv TEMPLATE_WW3 '/glade/work/xiaohuiz/CODE/FMS_Wave_Coupling/tools/cheyenne-intel-ww3.mk'
+#EOF
 endif
 echo '2'
 if ($BuildFMS == 1) then
@@ -62,7 +72,7 @@ if ($BuildFMS == 1) then
     (cd build/intel/FMSlib/repro/; rm -f path_names;\
     ../../../../src/mkmf/bin/list_paths -l ../../../../src/FMS; \
     ../../../../src/mkmf/bin/mkmf -t $TEMPLATE -p libfms.a -c "-Duse_libMPI -Duse_netCDF -DSPMD " path_names)
-    (cd build/intel/FMSlib/repro/; source ../../env; make NETCDF=4 REPRO=1 libfms.a -j )
+    (cd build/intel/FMSlib/repro/;ln -s ../../tools/prepare_module_ww3.sh ../../env;source ../../env; make NETCDF=4 REPRO=1 libfms.a -j )
 endif
 
 if ($BuildWW3grid == 1) then
