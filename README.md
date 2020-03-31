@@ -14,14 +14,26 @@ Change to the desired branch, then update and unpack the submodules:
 
 Now you should be ready to compile.
 
+Another option: To clone this repo with modified coupler and compile file from xiaohui's github use the following
+
+> Using https:
+> git clone https://github.com/xiaohuizhou123/FMS_Wave_Coupling.git
+
+Change to the desired branch, then update and unpack the submodules:
+> git checkout remotes/origin/add_cd_in_FMScoupler
+> git submodule update --init --recursive
+
+change the src/coupler to late updated commmit
+> git submodule update --remote src/coupler
 
 ### Compiling on Gaea
 
 1. First step is to set up the wave model.  The wave model source code must be pre-processed using WAVEWATCH provided programs to convert to standard FORTRAN 90 files.  A sample script to complete this step is provided in "tools/SetUpWW3.csh", which works on Gaea and GFDL workstations to use a particular switch file and extract FORTRAN 90 code from the WW3 ftn code.  This script sets up code to compile WW3 preprocessor routines for building the grid binary (ww3_grid), the forcing binaries (ww3_prnc, needed for standalone WW3), and the stand alone WW3 driver (ww3_multi).  It also sets up code to compile WW3 postprocessor routines for converting the output binary into NetCDF (ww3_ounf).  Note that the wave model needs to know a valid compiler to unpack its "ftn" files into "f90" files, but you shouldn't need to use the same fortran compiler that you will use to create executables.
 
 > Gaea/GFDL Instructions:
->
+>  
 > cd FMS_Wave_Coupling  
+> if you want to switch compiler from gfortran/gcc to ifort/icc, modify src/WW3/model/bin/ww3_setup (line 202-203)
 > ./Set_Up_WW3.csh
 
 2. The second step is to compile.  Again, a script to do this is provided for GFDL and Gaea.  This script will compile 1) FMS library, 2) ww3_grid, 3) ww3_prnc, 4) ww3_multi, 5) WW3 library (for linking within coupled model), 6) the coupled model , and 7) ww3_ounf.
