@@ -5,7 +5,7 @@
 # We won't compile the wavemodel with WW3 compile scripts, but we still need to direct the w3_source
 #  to valid compilers.
 setenv comp 'cray_xc.Intel'
-setenv switch 'NCEP_st4'
+setenv switch 'NCEP_st4_NC4'
 
 #--------------------
 #The following generates, unpacks, and sets up folders for wave model executables and libraries needed for coupling to MOM6.
@@ -15,8 +15,9 @@ cd src/WW3/model/
 setenv WW3DIR `pwd`
 
 cd bin
-./w3_setup -q -c $comp -s $switch -t $WW3DIR/tmp $WW3DIR
-foreach sfile (ww3_grid ww3_multi ww3_prnc ww3_ounf ww3_shel)
+ ./w3_setup -q -c $comp -s $switch -t $WW3DIR/tmp $WW3DIR
+#./w3_setup -q -c $comp -t $WW3DIR/tmp $WW3DIR
+foreach sfile (ww3_grid ww3_multi ww3_strt ww3_prnc ww3_ounf ww3_shel)
     ./w3_source $sfile
     if ( ! -d ../$sfile ) then
 	mkdir -p ../$sfile

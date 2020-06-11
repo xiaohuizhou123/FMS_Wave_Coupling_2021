@@ -7,16 +7,20 @@ setenv site `perl -T -e "use Net::Domain(hostdomain); print hostdomain" | sed 's
 setenv BuildFMS 1
 #Set 1 to build ww3_grid exec (needed for creating wave model grid)
 setenv BuildWW3grid 1
+#Set 1 to build ww3_strt exec (optional, needed to run wave model stand alone from external forcing)
+setenv BuildWW3strt 1
 #Set 1 to build ww3_prnc exec (optional, needed to run wave model from external forcing)
-setenv BuildWW3prnc 0
+setenv BuildWW3prnc 1
 #Set 1 to build ww3_multi exec (optional, needed to run wave model in stand-alone from multi driver)
-setenv BuildWW3multi 0
+setenv BuildWW3multi 1
 #Set 1 to build ww3_shel exec (optional, needed to run wave model in stand-alone from shel driver)
 setenv BuildWW3shel 1
 #Set 1 to build WW3 library for coupled model
 setenv BuildWW3lib 1
 #Set 1 to build ww3_ounf exec (optional, needed to process WW3 output to NetCDF)
 setenv BuildWW3ounf 1
+#set 1 to ountf the txt out of ww3 output
+setenv BuildWW3outf 1
 #Set 1 to build the actual coupled model
 setenv BuildMOM6 1
 
@@ -87,7 +91,22 @@ if ($BuildWW3grid == 1) then
     ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_grid)
     (cd build/intel/wave_ice_ocean/ww3_grid/; \
     ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_grid path_names)
-    (cd build/intel/wave_ice_ocean/ww3_grid/; source ../../env; make NETCDF=3 REPRO=1 ww3_grid)
+    (cd build/intel/wave_ice_ocean/ww3_grid/; source ../../env; make NETCDF=4 REPRO=1 ww3_grid)
+endif
+
+if ($BuildWW3strt == 1) then
+    echo ''
+    echo ''
+    echo 'Building ww3_strt'
+    echo ''
+    echo ''
+    #WW3_strt
+    mkdir -p build/intel/wave_ice_ocean/ww3_strt/
+    (cd build/intel/wave_ice_ocean/ww3_strt/; rm -f path_names;\
+    ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_strt)
+    (cd build/intel/wave_ice_ocean/ww3_strt/; \
+    ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_strt path_names)
+    (cd build/intel/wave_ice_ocean/ww3_strt/; source ../../env; make NETCDF=4 REPRO=1 ww3_strt)
 endif
 
 if ($BuildWW3prnc == 1) then
@@ -102,7 +121,7 @@ if ($BuildWW3prnc == 1) then
     ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_prnc)
     (cd build/intel/wave_ice_ocean/ww3_prnc/; \
     ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_prnc path_names)
-    (cd build/intel/wave_ice_ocean/ww3_prnc/; source ../../env; make NETCDF=3 REPRO=1 ww3_prnc)
+    (cd build/intel/wave_ice_ocean/ww3_prnc/; source ../../env; make NETCDF=4 REPRO=1 ww3_prnc)
 endif
 
 if ($BuildWW3multi == 1) then
@@ -118,7 +137,7 @@ if ($BuildWW3multi == 1) then
     ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_multi)
     (cd build/intel/wave_ice_ocean/ww3_multi/; \
     ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_multi path_names)
-    (cd build/intel/wave_ice_ocean/ww3_multi/; source ../../env; make NETCDF=3 REPRO=1 ww3_multi)
+    (cd build/intel/wave_ice_ocean/ww3_multi/; source ../../env; make NETCDF=4 REPRO=1 ww3_multi)
 endif
 
 if ($BuildWW3shel == 1) then
@@ -134,7 +153,7 @@ if ($BuildWW3shel == 1) then
     ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_shel)
     (cd build/intel/wave_ice_ocean/ww3_shel/; \
     ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_shel path_names)
-    (cd build/intel/wave_ice_ocean/ww3_shel/; source ../../env; make NETCDF=3 REPRO=1 ww3_shel)
+    (cd build/intel/wave_ice_ocean/ww3_shel/; source ../../env; make NETCDF=4 REPRO=1 ww3_shel)
 endif
 
 if ($BuildWW3lib == 1) then
@@ -163,7 +182,7 @@ if ($BuildMOM6 == 1) then
 		../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/MOM6/config_src/{dynamic,coupled_driver} ../../../../src/MOM6/src/{*,*/*}/ ../../../../src/{atmos_null,coupler,land_null,ice_param,icebergs,SIS2,FMS/coupler,FMS/include,WW3/model/CPL}/)
     (cd build/intel/wave_ice_ocean/repro/; \
 	../../../../src/mkmf/bin/mkmf -t $TEMPLATE -o '-I../../FMSlib/repro -I../../WW3lib/repro' -p MOM6 -l '-L../../FMSlib/repro -lfms -L../../WW3lib/repro -lww3' -c '-Duse_libMPI -Duse_netCDF -DSPMD -Duse_AM3_physics -D_USE_LEGACY_LAND_ ' path_names )
-    (cd build/intel/wave_ice_ocean/repro/; source ../../env; make NETCDF=3 REPRO=1 MOM6 -j)
+    (cd build/intel/wave_ice_ocean/repro/; source ../../env; make NETCDF=4 REPRO=1 MOM6 -j)
 endif
 
 if ($BuildWW3ounf == 1) then
@@ -178,5 +197,20 @@ if ($BuildWW3ounf == 1) then
     ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_ounf)
     (cd build/intel/wave_ice_ocean/ww3_ounf/; \
     ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_ounf path_names)
-    (cd build/intel/wave_ice_ocean/ww3_ounf/; source ../../env; make NETCDF=3 REPRO=1 ww3_ounf)
+    (cd build/intel/wave_ice_ocean/ww3_ounf/; source ../../env; make NETCDF=4 REPRO=1 ww3_ounf)
+endif
+
+if ($BuildWW3outf == 1) then
+    echo ''
+    echo ''
+    echo 'Building ww3_outf'
+    echo ''
+    echo ''
+    #WW3_ounf
+    mkdir -p build/intel/wave_ice_ocean/ww3_outf/
+    (cd build/intel/wave_ice_ocean/ww3_outf/; rm -f path_names; \
+    ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_outf)
+    (cd build/intel/wave_ice_ocean/ww3_outf/; \
+    ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_outf path_names)
+    (cd build/intel/wave_ice_ocean/ww3_outf/; source ../../env; make NETCDF=4 REPRO=1 ww3_outf)
 endif
