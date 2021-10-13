@@ -1,0 +1,11 @@
+
+WARNING from PE     0: hor_visc_init:  It is usually a very bad idea not to use either LAPLACIAN or BIHARMONIC viscosity.
+
+
+WARNING from PE     0: MPP_OPEN: File ./CPU_stats opened WRONLY already exists!
+
+
+WARNING from PE     0: MPP_OPEN: File ./ocean.stats opened WRONLY already exists!
+
+=>> PBS: job killed: walltime 30096 exceeded limit 30000
+MPT: Received signal 15

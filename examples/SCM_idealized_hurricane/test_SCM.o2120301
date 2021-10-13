@@ -1,0 +1,175 @@
+
+FATAL from PE     1: You requested to use   32 PEs but there are only   16 columns in the model
+
+MPT ERROR: Rank 1(g:1) is aborting with error code 1.
+	Process ID: 61217, Host: r10i0n21, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+
+
+FATAL from PE    13: You requested to use   32 PEs but there are only   16 columns in the model
+FATAL from PE    12: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+
+FATAL from PE     2: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+FATAL from PE     3: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+FATAL from PE    10: You requested to use   32 PEs but there are only   16 columns in the model
+
+FATAL from PE    11: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+
+
+
+FATAL from PE    29: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+FATAL from PE    31: You requested to use   32 PEs but there are only   16 columns in the model
+MPT ERROR: Rank 12(g:12) is aborting with error code 1.
+	Process ID: 58695, Host: r10i2n29, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 2(g:2) is aborting with error code 1.
+	Process ID: 26353, Host: r10i0n22, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+FATAL from PE    28: You requested to use   32 PEs but there are only   16 columns in the model
+
+FATAL from PE    30: You requested to use   32 PEs but there are only   16 columns in the model
+
+MPT ERROR: Rank 11(g:11) is aborting with error code 1.
+	Process ID: 43368, Host: r10i2n28, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+
+
+
+FATAL from PE    15: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+FATAL from PE    20: You requested to use   32 PEs but there are only   16 columns in the model
+
+FATAL from PE    22: You requested to use   32 PEs but there are only   16 columns in the model
+
+FATAL from PE    21: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+FATAL from PE    24: You requested to use   32 PEs but there are only   16 columns in the model
+
+FATAL from PE    23: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+FATAL from PE    25: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+
+FATAL from PE    14: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+MPT ERROR: Rank 30(g:30) is aborting with error code 1.
+	Process ID: 34470, Host: r10i4n12, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+
+FATAL from PE    18: You requested to use   32 PEs but there are only   16 columns in the model
+
+FATAL from PE    19: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+MPT ERROR: Rank 29(g:29) is aborting with error code 1.
+	Process ID: 54068, Host: r10i3n30, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+
+FATAL from PE     8: You requested to use   32 PEs but there are only   16 columns in the model
+
+MPT ERROR: Rank 20(g:20) is aborting with error code 1.
+	Process ID: 66901, Host: r10i3n8, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 22(g:22) is aborting with error code 1.
+	Process ID: 67558, Host: r10i3n16, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 24(g:24) is aborting with error code 1.
+	Process ID: 40645, Host: r10i3n17, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+
+FATAL from PE     9: You requested to use   32 PEs but there are only   16 columns in the model
+
+MPT ERROR: Rank 15(g:15) is aborting with error code 1.
+	Process ID: 20269, Host: r10i2n30, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 18(g:18) is aborting with error code 1.
+	Process ID: 65507, Host: r10i3n5, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 8(g:8) is aborting with error code 1.
+	Process ID: 17910, Host: r10i2n14, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+
+FATAL from PE    26: You requested to use   32 PEs but there are only   16 columns in the model
+
+FATAL from PE    27: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+
+
+FATAL from PE     5: You requested to use   32 PEs but there are only   16 columns in the model
+
+FATAL from PE     4: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+
+FATAL from PE     7: You requested to use   32 PEs but there are only   16 columns in the model
+FATAL from PE     6: You requested to use   32 PEs but there are only   16 columns in the model
+
+MPT ERROR: Rank 26(g:26) is aborting with error code 1.
+	Process ID: 43851, Host: r10i3n19, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+
+MPT ERROR: Rank 5(g:5) is aborting with error code 1.
+	Process ID: 42345, Host: r10i0n27, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 6(g:6) is aborting with error code 1.
+	Process ID: 51508, Host: r10i0n29, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+
+FATAL from PE    16: You requested to use   32 PEs but there are only   16 columns in the model
+
+FATAL from PE    17: You requested to use   32 PEs but there are only   16 columns in the model
+
+
+MPT ERROR: Rank 16(g:16) is aborting with error code 1.
+	Process ID: 40456, Host: r10i2n27, Program: /glade/u/home/xiaohuiz/MOM6-examples/build/intel/ocean_only/repro/MOM6
+	MPT Version: HPE MPT 2.19  02/23/19 05:30:09
+
+MPT: --------stack traceback-------
+MPT ERROR: MPI_COMM_WORLD rank 13 has terminated without calling MPI_Finalize()
+	aborting job

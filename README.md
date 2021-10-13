@@ -81,3 +81,4 @@ From the examples/Idealized_Hurricane/0p5 directory:
 >  /net2/bgr/Software/build/bin/mpirun -n 4 ../../../build/intel/wave_ice_ocean/repro/MOM6
 
 5.  If this works, then congratulations, you have successful set-up, compiled, and run this example.  There is much more we can do with this including customizing set-ups, and processing and manipulating output.  Adding more instructions to this README.md is always welcome!
+# FMS_Wave_Coupling_2021

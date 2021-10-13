@@ -17,7 +17,7 @@ setenv WW3DIR `pwd`
 cd bin
  ./w3_setup -q -c $comp -s $switch -t $WW3DIR/tmp $WW3DIR
 #./w3_setup -q -c $comp -t $WW3DIR/tmp $WW3DIR
-foreach sfile (ww3_grid ww3_multi ww3_strt ww3_prnc ww3_ounf ww3_shel)
+foreach sfile (ww3_grid ww3_multi ww3_strt ww3_prnc ww3_ounf ww3_shel ww3_ounp ww3_prep)
     ./w3_source $sfile
     if ( ! -d ../$sfile ) then
 	mkdir -p ../$sfile

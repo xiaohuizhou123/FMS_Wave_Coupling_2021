@@ -1,0 +1,103 @@
+forrtl: severe (66): output statement overflows record, unit -5, file Internal Formatted Write
+Image              PC                Routine            Line        Source             
+MOM6               00000000015BC37E  Unknown               Unknown  Unknown
+MOM6               000000000160A131  Unknown               Unknown  Unknown
+MOM6               0000000001607E22  Unknown               Unknown  Unknown
+MOM6               00000000009604D8  mom_string_functi         165  MOM_string_functions.F90
+MOM6               00000000007C7CB3  mom_file_parser_m        1391  MOM_file_parser.F90
+MOM6               000000000051A451  mom_regridding_mp         378  MOM_regridding.F90
+MOM6               0000000000B456D3  mom_ale_mp_ale_in        1114  MOM_ALE.F90
+MOM6               00000000004C0F8B  mom_mp_initialize        2140  MOM.F90
+MOM6               00000000004D0227  MAIN__                    310  MOM_driver.F90
+MOM6               000000000040509E  Unknown               Unknown  Unknown
+libc.so.6          00002B301A86D6E5  __libc_start_main     Unknown  Unknown
+MOM6               0000000000404FA9  Unknown               Unknown  Unknown
+forrtl: severe (66): output statement overflows record, unit -5, file Internal Formatted Write
+Image              PC                Routine            Line        Source             
+MOM6               00000000015BC37E  Unknown               Unknown  Unknown
+MOM6               000000000160A131  Unknown               Unknown  Unknown
+MOM6               0000000001607E22  Unknown               Unknown  Unknown
+MOM6               00000000009604D8  mom_string_functi         165  MOM_string_functions.F90
+MOM6               00000000007C7CB3  mom_file_parser_m        1391  MOM_file_parser.F90
+MOM6               000000000051A451  mom_regridding_mp         378  MOM_regridding.F90
+MOM6               0000000000B456D3  mom_ale_mp_ale_in        1114  MOM_ALE.F90
+MOM6               00000000004C0F8B  mom_mp_initialize        2140  MOM.F90
+MOM6               00000000004D0227  MAIN__                    310  MOM_driver.F90
+MOM6               000000000040509E  Unknown               Unknown  Unknown
+libc.so.6          00002B301A86D6E5  __libc_start_main     Unknown  Unknown
+MOM6               0000000000404FA9  Unknown               Unknown  Unknown
+forrtl: severe (66): output statement overflows record, unit -5, file Internal Formatted Write
+Image              PC                Routine            Line        Source             
+MOM6               00000000015BC37E  Unknown               Unknown  Unknown
+MOM6               000000000160A131  Unknown               Unknown  Unknown
+MOM6               0000000001607E22  Unknown               Unknown  Unknown
+MOM6               00000000009604D8  mom_string_functi         165  MOM_string_functions.F90
+MOM6               00000000007C7CB3  mom_file_parser_m        1391  MOM_file_parser.F90
+MOM6               000000000051A451  mom_regridding_mp         378  MOM_regridding.F90
+MOM6               0000000000B456D3  mom_ale_mp_ale_in        1114  MOM_ALE.F90
+MOM6               00000000004C0F8B  mom_mp_initialize        2140  MOM.F90
+MOM6               00000000004D0227  MAIN__                    310  MOM_driver.F90
+MOM6               000000000040509E  Unknown               Unknown  Unknown
+libc.so.6          00002B0FB68916E5  __libc_start_main     Unknown  Unknown
+MOM6               0000000000404FA9  Unknown               Unknown  Unknown
+forrtl: severe (66): output statement overflows record, unit -5, file Internal Formatted Write
+Image              PC                Routine            Line        Source             
+MOM6               00000000015BC37E  Unknown               Unknown  Unknown
+MOM6               000000000160A131  Unknown               Unknown  Unknown
+MOM6               0000000001607E22  Unknown               Unknown  Unknown
+MOM6               00000000009604D8  mom_string_functi         165  MOM_string_functions.F90
+MOM6               00000000007C7CB3  mom_file_parser_m        1391  MOM_file_parser.F90
+MOM6               000000000051A451  mom_regridding_mp         378  MOM_regridding.F90
+MOM6               0000000000B456D3  mom_ale_mp_ale_in        1114  MOM_ALE.F90
+MOM6               00000000004C0F8B  mom_mp_initialize        2140  MOM.F90
+MOM6               00000000004D0227  MAIN__                    310  MOM_driver.F90
+MOM6               000000000040509E  Unknown               Unknown  Unknown
+libc.so.6          00002BA9438206E5  __libc_start_main     Unknown  Unknown
+MOM6               0000000000404FA9  Unknown               Unknown  Unknown
+forrtl: severe (66): output statement overflows record, unit -5, file Internal Formatted Write
+Image              PC                Routine            Line        Source             
+MOM6               00000000015BC37E  Unknown               Unknown  Unknown
+MOM6               000000000160A131  Unknown               Unknown  Unknown
+MOM6               0000000001607E22  Unknown               Unknown  Unknown
+MOM6               00000000009604D8  mom_string_functi         165  MOM_string_functions.F90
+MOM6               00000000007C7CB3  mom_file_parser_m        1391  MOM_file_parser.F90
+MOM6               000000000051A451  mom_regridding_mp         378  MOM_regridding.F90
+MOM6               0000000000B456D3  mom_ale_mp_ale_in        1114  MOM_ALE.F90
+MOM6               00000000004C0F8B  mom_mp_initialize        2140  MOM.F90
+MOM6               00000000004D0227  MAIN__                    310  MOM_driver.F90
+MOM6               000000000040509E  Unknown               Unknown  Unknown
+libc.so.6          00002BA9438206E5  __libc_start_main     Unknown  Unknown
+MOM6               0000000000404FA9  Unknown               Unknown  Unknown
+forrtl: severe (66): output statement overflows record, unit -5, file Internal Formatted Write
+Image              PC                Routine            Line        Source             
+MOM6               00000000015BC37E  Unknown               Unknown  Unknown
+MOM6               000000000160A131  Unknown               Unknown  Unknown
+MOM6               0000000001607E22  Unknown               Unknown  Unknown
+MOM6               00000000009604D8  mom_string_functi         165  MOM_string_functions.F90
+MOM6               00000000007C7CB3  mom_file_parser_m        1391  MOM_file_parser.F90
+MOM6               000000000051A451  mom_regridding_mp         378  MOM_regridding.F90
+MOM6               0000000000B456D3  mom_ale_mp_ale_in        1114  MOM_ALE.F90
+MOM6               00000000004C0F8B  mom_mp_initialize        2140  MOM.F90
+MOM6               00000000004D0227  MAIN__                    310  MOM_driver.F90
+MOM6               000000000040509E  Unknown               Unknown  Unknown
+libc.so.6          00002B0FB68916E5  __libc_start_main     Unknown  Unknown
+MOM6               0000000000404FA9  Unknown               Unknown  Unknown
+forrtl: severe (66): output statement overflows record, unit -5, file Internal Formatted Write
+Image              PC                Routine            Line        Source             
+MOM6               00000000015BC37E  Unknown               Unknown  Unknown
+MOM6               000000000160A131  Unknown               Unknown  Unknown
+MOM6               0000000001607E22  Unknown               Unknown  Unknown
+MOM6               00000000009604D8  mom_string_functi         165  MOM_string_functions.F90
+MOM6               00000000007C7CB3  mom_file_parser_m        1391  MOM_file_parser.F90
+MOM6               000000000051A451  mom_regridding_mp         378  MOM_regridding.F90
+MOM6               0000000000B456D3  mom_ale_mp_ale_in        1114  MOM_ALE.F90
+MOM6               00000000004C0F8B  mom_mp_initialize        2140  MOM.F90
+MOM6               00000000004D0227  MAIN__                    310  MOM_driver.F90
+MOM6               000000000040509E  Unknown               Unknown  Unknown
+libc.so.6          00002B66308336E5  __libc_start_main     Unknown  Unknown
+MOM6               0000000000404FA9  Unknown               Unknown  Unknown
+
+WARNING from PE     0: MOM_file_parser : REGRIDDING_COORDINATE_MODE over-ridden.  Line: 'REGRIDDING_COORDINATE_MODE = "Z*"' in file MOM_override.
+
+MPT ERROR: MPI_COMM_WORLD rank 6 has terminated without calling MPI_Finalize()
+	aborting job

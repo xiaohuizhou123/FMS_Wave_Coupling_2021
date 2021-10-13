@@ -1,0 +1,1 @@
+ use_libMPI use_AM3_physics SPMD _USE_LEGACY_LAND_ use_netCDF

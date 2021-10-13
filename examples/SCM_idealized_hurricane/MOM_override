@@ -1,0 +1,4 @@
+! Blank file in which we can put "overrides" for parameters !VERBOSITY = 9
+#override ALE_COORDINATE_CONFIG = "FNC1:2,6500,6,.01"
+#override INTERPOLATION_SCHEME = "PPM_H4"
+#override REGRIDDING_COORDINATE_MODE = "Z*"

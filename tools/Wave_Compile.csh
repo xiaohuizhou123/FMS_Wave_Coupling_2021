@@ -21,6 +21,10 @@ setenv BuildWW3lib 1
 setenv BuildWW3ounf 1
 #set 1 to ountf the txt out of ww3 output
 setenv BuildWW3outf 1
+#set 1 to ountf the netcdf out of ww3 point output
+setenv BuildWW3ounp 1
+#Set 1 to build the actual coupled model
+setenv BuildWW3prep 1
 #Set 1 to build the actual coupled model
 setenv BuildMOM6 1
 
@@ -54,11 +58,11 @@ else if ( "$site" == "ncrc.gov" ) then
     module load cray-hdf5
 EOF
 else if ("$site" == "ib0.cheyenne.ucar.edu") then
-     module load ncarenv/1.3
-     module load ncarcompilers/0.5.0
-     module load netcdf/4.7.3
-     module load intel/18.0.5
-     module load mpt/2.19
+#     module load ncarenv/1.3
+#     module load ncarcompilers/0.5.0
+#     module load netcdf/4.7.3
+#     module load intel/18.0.5
+#     module load mpt/2.19
 
      setenv TEMPLATE '/glade/work/xiaohuiz/CODE/FMS_Wave_Coupling/tools/cheyenne-intel.mk'
      setenv TEMPLATE_WW3 '/glade/work/xiaohuiz/CODE/FMS_Wave_Coupling/tools/cheyenne-intel-ww3.mk'
@@ -123,6 +127,22 @@ if ($BuildWW3prnc == 1) then
     ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_prnc path_names)
     (cd build/intel/wave_ice_ocean/ww3_prnc/; source ../../env; make NETCDF=4 REPRO=1 ww3_prnc)
 endif
+
+if ($BuildWW3prep == 1) then
+    echo ''
+    echo ''
+    echo 'Building ww3_prep'
+    echo ''
+    echo ''
+    #WW3_prnc
+    mkdir -p build/intel/wave_ice_ocean/ww3_prep/
+    (cd build/intel/wave_ice_ocean/ww3_prep/; rm -f path_names;\
+    ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_prep)
+    (cd build/intel/wave_ice_ocean/ww3_prep/; \
+    ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_prnc path_names)
+    (cd build/intel/wave_ice_ocean/ww3_prep/; source ../../env; make NETCDF=4 REPRO=1 ww3_prep)
+endif
+
 
 if ($BuildWW3multi == 1) then
     echo ''
@@ -213,4 +233,20 @@ if ($BuildWW3outf == 1) then
     (cd build/intel/wave_ice_ocean/ww3_outf/; \
     ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_outf path_names)
     (cd build/intel/wave_ice_ocean/ww3_outf/; source ../../env; make NETCDF=4 REPRO=1 ww3_outf)
+endif
+
+
+if ($BuildWW3ounp == 1) then
+    echo ''
+    echo ''
+    echo 'Building ww3_ounp'
+    echo ''
+    echo ''
+    #WW3_ounf
+    mkdir -p build/intel/wave_ice_ocean/ww3_ounp/
+    (cd build/intel/wave_ice_ocean/ww3_ounp/; rm -f path_names; \
+    ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/WW3/model/ww3_ounp)
+    (cd build/intel/wave_ice_ocean/ww3_ounp/; \
+    ../../../../src/mkmf/bin/mkmf -t $TEMPLATE_WW3 -p ww3_ounp path_names)
+    (cd build/intel/wave_ice_ocean/ww3_ounp/; source ../../env; make NETCDF=4 REPRO=1 ww3_ounp)
 endif

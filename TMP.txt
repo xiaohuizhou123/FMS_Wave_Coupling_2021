@@ -1,0 +1,352 @@
+2
+
+
+Building FMS
+
+
+A list of the files you checked out is in the file path_names.
+ Makefile is ready.
+make: 'libfms.a' is up to date.
+
+
+Building ww3_grid
+
+
+A list of the files you checked out is in the file path_names.
+ Makefile is ready.
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/constants_ww3.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3servmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3gsrumd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3arrymd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3gdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3odatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3idatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3timemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3adatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3nmlgridmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3dispmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/wmmdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3src4md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3snl1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3triamd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c	../../../../src/WW3/model/ww3_grid/w3parall.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3wdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/w3iogrmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_grid	../../../../src/WW3/model/ww3_grid/ww3_grid.F90
+ifort w3timemd.o w3snl1md.o w3arrymd.o w3odatmd.o w3nmlgridmd.o w3triamd.o w3dispmd.o w3servmd.o w3idatmd.o w3gsrumd.o w3iogrmd.o w3parall.o w3src4md.o w3wdatmd.o ww3_grid.o w3gdatmd.o w3adatmd.o constants_ww3.o wmmdatmd.o -o ww3_grid    -lnetcdff -lnetcdf -lhdf5_hl -lhdf5 -lz -lmpi -lsma
+
+
+Building ww3_strt
+
+
+A list of the files you checked out is in the file path_names.
+ Makefile is ready.
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/constants_ww3.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3servmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3gsrumd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3arrymd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3gdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3idatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3odatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3sbt1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3dispmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3adatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3sdb1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/wmmdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3timemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3src4md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3triamd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3snl1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c	../../../../src/WW3/model/ww3_strt/w3parall.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3wdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3iogrmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/w3iorsmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_strt	../../../../src/WW3/model/ww3_strt/ww3_strt.F90
+ifort w3idatmd.o w3src4md.o w3triamd.o w3servmd.o constants_ww3.o w3sdb1md.o w3snl1md.o w3gdatmd.o w3adatmd.o wmmdatmd.o w3iorsmd.o w3wdatmd.o w3odatmd.o w3arrymd.o w3sbt1md.o ww3_strt.o w3gsrumd.o w3timemd.o w3iogrmd.o w3dispmd.o w3parall.o -o ww3_strt    -lnetcdff -lnetcdf -lhdf5_hl -lhdf5 -lz -lmpi -lsma
+
+
+Building ww3_prnc
+
+
+A list of the files you checked out is in the file path_names.
+ Makefile is ready.
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/constants_ww3.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3servmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3gsrumd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3arrymd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3gdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3odatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3idatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3sbt1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3adatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3sdb1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3nmlprncmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3timemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3dispmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/wmmdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3src4md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3fldsmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c	../../../../src/WW3/model/ww3_prnc/w3parall.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3snl1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3triamd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3wdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/w3iogrmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_prnc	../../../../src/WW3/model/ww3_prnc/ww3_prnc.F90
+ifort w3wdatmd.o w3sdb1md.o w3parall.o w3arrymd.o w3nmlprncmd.o w3fldsmd.o ww3_prnc.o w3gsrumd.o w3iogrmd.o w3triamd.o w3timemd.o w3dispmd.o w3sbt1md.o w3gdatmd.o wmmdatmd.o w3src4md.o w3idatmd.o w3snl1md.o w3odatmd.o w3adatmd.o w3servmd.o constants_ww3.o -o ww3_prnc    -lnetcdff -lnetcdf -lhdf5_hl -lhdf5 -lz -lmpi -lsma
+
+
+Building ww3_multi
+
+
+A list of the files you checked out is in the file path_names.
+ Makefile is ready.
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/constants_ww3.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3uqckmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3servmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3gsrumd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3cspcmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3arrymd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmunitmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3gdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3sbt1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3odatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3idatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3adatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3timemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3dispmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3sln1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3sdb1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmmdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3flx1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3src4md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3partmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3fldsmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3nmlmultimd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmfinlmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c	../../../../src/WW3/model/ww3_multi/w3parall.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3triamd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3snl1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3wdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iogrmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3srcemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3pro3md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3profsmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iogomd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iotrmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iosfmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmupdtmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3wdasmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iopomd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3updtmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iorsmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iobcmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmgridmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wminiomd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3wavemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3initmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmiopomd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wminitmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmwavemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/ww3_multi.F90
+ifort w3sbt1md.o wmwavemd.o ww3_multi.o w3cspcmd.o w3iorsmd.o w3gsrumd.o wmgridmd.o w3sdb1md.o wmunitmd.o w3updtmd.o w3src4md.o w3pro3md.o wminiomd.o w3nmlmultimd.o w3iogrmd.o w3initmd.o w3uqckmd.o w3profsmd.o w3servmd.o w3gdatmd.o wmfinlmd.o w3iosfmd.o wminitmd.o w3odatmd.o w3wdatmd.o w3srcemd.o w3arrymd.o w3fldsmd.o w3adatmd.o wmiopomd.o w3dispmd.o w3iotrmd.o wmmdatmd.o w3triamd.o w3partmd.o w3timemd.o constants_ww3.o w3idatmd.o w3parall.o w3sln1md.o w3iogomd.o wmupdtmd.o w3wavemd.o w3wdasmd.o w3flx1md.o w3iopomd.o w3snl1md.o w3iobcmd.o -o ww3_multi    -lnetcdff -lnetcdf -lhdf5_hl -lhdf5 -lz -lmpi -lsma
+
+
+Building ww3_multi
+
+
+A list of the files you checked out is in the file path_names.
+ Makefile is ready.
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/constants_ww3.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3uqckmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3servmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3gsrumd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3arrymd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3cspcmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3gdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3idatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3odatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3sbt1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3adatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3dispmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3timemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/wmmdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3sdb1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3sln1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3flx1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3src4md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3partmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3fldsmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3nmlshelmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c	../../../../src/WW3/model/ww3_shel/w3parall.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3triamd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3snl1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3wdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3iogrmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3iogomd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3srcemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3pro3md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3profsmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3iotrmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3iosfmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3wdasmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3iopomd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3iorsmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3updtmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3iobcmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3wavemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/w3initmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_shel	../../../../src/WW3/model/ww3_shel/ww3_shel.F90
+ifort w3idatmd.o w3iogomd.o w3sbt1md.o w3iopomd.o w3timemd.o wmmdatmd.o w3sdb1md.o w3gdatmd.o w3sln1md.o w3dispmd.o w3odatmd.o w3parall.o w3uqckmd.o w3arrymd.o w3iorsmd.o w3adatmd.o w3srcemd.o w3partmd.o w3snl1md.o w3wavemd.o constants_ww3.o w3iotrmd.o w3wdatmd.o w3iobcmd.o w3wdasmd.o w3gsrumd.o ww3_shel.o w3profsmd.o w3iosfmd.o w3cspcmd.o w3flx1md.o w3servmd.o w3nmlshelmd.o w3src4md.o w3fldsmd.o w3updtmd.o w3pro3md.o w3initmd.o w3triamd.o w3iogrmd.o -o ww3_shel    -lnetcdff -lnetcdf -lhdf5_hl -lhdf5 -lz -lmpi -lsma
+
+
+Building WW3lib
+
+
+A list of the files you checked out is in the file path_names.
+ Makefile is ready.
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/constants_ww3.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3uqckmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3servmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3gsrumd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3arrymd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3cspcmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmunitmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3gdatmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3odatmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3idatmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3sbt1md.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3adatmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3timemd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3dispmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3sln1md.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3sdb1md.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmmdatmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3flx1md.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3src4md.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3partmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3fldsmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3nmlmultimd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmfinlmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c	../../../../src/WW3/model/ww3_multi/w3parall.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3snl1md.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3triamd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3wdatmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iogrmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iotrmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3srcemd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3pro3md.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3profsmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iogomd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iosfmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmupdtmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3wdasmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3updtmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iopomd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iorsmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3iobcmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmgridmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wminiomd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3wavemd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/w3initmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmiopomd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wminitmd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/wmwavemd.F90
+ifort -Duse_libMPI -Duse_netCDF -DSPMD -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_multi	../../../../src/WW3/model/ww3_multi/ww3_multi.F90
+ar rv libww3.a w3iotrmd.o w3arrymd.o w3iogrmd.o w3partmd.o w3wavemd.o w3triamd.o w3uqckmd.o w3timemd.o w3wdatmd.o wmwavemd.o w3sln1md.o w3iopomd.o w3fldsmd.o wmunitmd.o w3gsrumd.o w3updtmd.o constants_ww3.o w3iogomd.o w3profsmd.o w3nmlmultimd.o w3snl1md.o wminitmd.o wminiomd.o w3initmd.o w3idatmd.o w3sdb1md.o w3flx1md.o w3cspcmd.o wmfinlmd.o w3iobcmd.o w3parall.o w3odatmd.o w3adatmd.o w3iosfmd.o wmiopomd.o w3iorsmd.o w3servmd.o w3dispmd.o w3srcemd.o wmupdtmd.o w3sbt1md.o w3wdasmd.o w3gdatmd.o wmgridmd.o w3pro3md.o w3src4md.o wmmdatmd.o ww3_multi.o
+r - w3iotrmd.o
+r - w3arrymd.o
+r - w3iogrmd.o
+r - w3partmd.o
+r - w3wavemd.o
+r - w3triamd.o
+r - w3uqckmd.o
+r - w3timemd.o
+r - w3wdatmd.o
+r - wmwavemd.o
+r - w3sln1md.o
+r - w3iopomd.o
+r - w3fldsmd.o
+r - wmunitmd.o
+r - w3gsrumd.o
+r - w3updtmd.o
+r - constants_ww3.o
+r - w3iogomd.o
+r - w3profsmd.o
+r - w3nmlmultimd.o
+r - w3snl1md.o
+r - wminitmd.o
+r - wminiomd.o
+r - w3initmd.o
+r - w3idatmd.o
+r - w3sdb1md.o
+r - w3flx1md.o
+r - w3cspcmd.o
+r - wmfinlmd.o
+r - w3iobcmd.o
+r - w3parall.o
+r - w3odatmd.o
+r - w3adatmd.o
+r - w3iosfmd.o
+r - wmiopomd.o
+r - w3iorsmd.o
+r - w3servmd.o
+r - w3dispmd.o
+r - w3srcemd.o
+r - wmupdtmd.o
+r - w3sbt1md.o
+r - w3wdasmd.o
+r - w3gdatmd.o
+r - wmgridmd.o
+r - w3pro3md.o
+r - w3src4md.o
+r - wmmdatmd.o
+r - ww3_multi.o
+
+
+Building MOM6
+
+
+A list of the files you checked out is in the file path_names.
+ Makefile is ready.
+make: 'MOM6' is up to date.
+
+
+Building ww3_ounf
+
+
+A list of the files you checked out is in the file path_names.
+ Makefile is ready.
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/constants_ww3.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3servmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3gsrumd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3arrymd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3gdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3odatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3idatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3sbt1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3dispmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3adatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/wmmdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3nmlounfmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3timemd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3sdb1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3src4md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c	../../../../src/WW3/model/ww3_ounf/w3parall.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3snl1md.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3triamd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3wdatmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3iogrmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3iogomd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3iorsmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3iopomd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/w3initmd.F90
+ifort  -fpp -Wp,-w -fno-alias -auto -safe-cray-ptr -ftz -assume byterecl -i4  -nowarn -sox -traceback -O2 -debug minimal -fp-model source -qoverride-limits   -c -I../../../../src/WW3/model/ww3_ounf	../../../../src/WW3/model/ww3_ounf/ww3_ounf.F90
+ifort w3src4md.o w3odatmd.o w3arrymd.o w3parall.o wmmdatmd.o w3snl1md.o w3nmlounfmd.o ww3_ounf.o w3iopomd.o w3adatmd.o w3timemd.o w3sdb1md.o w3idatmd.o w3gsrumd.o w3dispmd.o w3gdatmd.o w3initmd.o w3triamd.o w3iogomd.o w3wdatmd.o constants_ww3.o w3iogrmd.o w3servmd.o w3sbt1md.o w3iorsmd.o -o ww3_ounf    -lnetcdff -lnetcdf -lhdf5_hl -lhdf5 -lz -lmpi -lsma
+
+
+Building ww3_outf
+
+
+A list of the files you checked out is in the file path_names.
+ Makefile is ready.
+make: 'ww3_outf' is up to date.
