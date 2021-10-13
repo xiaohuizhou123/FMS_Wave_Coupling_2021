@@ -28,7 +28,7 @@
 [submodule "src/coupler"]
 	path = src/coupler
 	url = git@github.com:xiaohuizhou123/FMScoupler.git
-	branch = user/bgr/wave_coupling
+	branch = updateCoupler2021
 [submodule "src/WW3"]
 	path = src/WW3
 	url = git@github.com:breichl/WW3.git
