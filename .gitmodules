@@ -19,8 +19,8 @@
 	branch = bgr_add_ww3_template
 [submodule "src/MOM6"]
 	path = src/MOM6
-	url = git@github.com:breichl/MOM6.git
-	branch = user/bgr/Wave_coupling_updates
+	url = git@github.com:xiaohuizhou123/MOM6.git
+	branch = UpdateLagmuirNumber
 [submodule "src/SIS2"]
 	path = src/SIS2
 	url = https://github.com/NOAA-GFDL/SIS2.git
